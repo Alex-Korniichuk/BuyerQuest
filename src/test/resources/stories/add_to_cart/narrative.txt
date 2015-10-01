@@ -1,0 +1,4 @@
+Add product to the cart from Compare Products page
+In order to add product to the cart
+As the site user
+I want to be able to add product to the cart from Compare products page
