@@ -8,7 +8,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 
-@DefaultUrl("https://dev.buyerquest.net/p2pdev2/customer/account/login/")
+@DefaultUrl("")
 public class FrontEndLoginPage extends PageObject {
 
     @FindBy (id = "email")
@@ -24,11 +24,11 @@ public class FrontEndLoginPage extends PageObject {
     }
 
     public void enterEmail (){
-        emailField.type("bqtester2015@gmail.com");
+        emailField.type("");
     }
 
     public void enterPassword (){
-        passField.type("bquest1");
+        passField.type("");
     }
 
     public void clickLoginBtn (){
